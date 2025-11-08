@@ -1,0 +1,8 @@
+void main() {
+  List<int> nums = [1,2,2,3,3,4];
+  List<int> u = [];
+  for (var i in nums) {
+    if (!u.contains(i)) u.add(i);
+  }
+  print(u);
+}
