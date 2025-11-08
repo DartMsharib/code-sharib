@@ -1,0 +1,4 @@
+void main() {
+  Map cart = {"Apple":3,"Banana":2};
+  if(cart.containsKey("Apple")) print("Product found"); else print("Product not found");
+}
