@@ -1,0 +1,2 @@
+int a = 5;    // value assign
+print(a == 5); // true, compare
