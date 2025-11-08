@@ -1,0 +1,9 @@
+oid main() {
+  // constant per ++ error dega
+  // 5++;  //  yahan error aayega
+
+  // sahi tareeqa:
+  int a = 5;
+  a++;     //  yeh allowed hai
+  print(a);
+}
